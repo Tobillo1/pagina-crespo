@@ -1,0 +1,50 @@
+.div1 {
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.div1:hover {
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+}
+.div2 {
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.div2:hover {
+    -webkit-transform: rotateZ(30deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateX(50deg);
+    transform-style: preserve-3d;
+}
+
+.div3 {
+    transition-property: all;
+    transition-duration: 2s;
+}
+.div3:hover {
+    filter: blur(5px)
+}
+.div4:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.div5 {
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.div5:hover {
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+.div6 {
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.div6:hover {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+    transform: rotate(15deg);
+    -webkit-transform: rotate(10deg);
+}

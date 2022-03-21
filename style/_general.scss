@@ -1,0 +1,32 @@
+body {
+    font-size: 20px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.title {
+    font-size: 18px;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    color: #0c2232;
+    background-color: #143852;
+    display: flex;
+}
+
+.centrar {
+    margin: auto;
+    display: block;
+    max-width: 220px;
+    max-height: 100%;
+}
+
+.pegatina {
+    margin: 10px;
+    max-width: 50%;
+    max-height: 50%;
+}
